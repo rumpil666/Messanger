@@ -1,0 +1,23 @@
+.header {
+  margin-top: 17px;
+  padding: 0 24px 15px 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5ea;
+
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.26px;
+    color: #666668;
+  }
+}

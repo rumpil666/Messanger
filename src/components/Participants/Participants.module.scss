@@ -1,0 +1,35 @@
+.participants {  
+  top: -13px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 84px;
+  width: 100%;
+
+  &__avatar {
+    border: 1.5px solid rgba(255 255 255 / 100%);
+    border-radius: 50%;
+    height: 24.5px;
+    width: 24.5px;
+
+    &:first-child {
+      position: absolute;
+      left: 0px;
+    }
+
+    &:nth-child(2) {
+      position: absolute;
+      left: 18px;
+    }
+
+    &:nth-child(3) {
+      position: absolute;
+      left: 36px;
+    }
+
+    &:nth-child(4) {
+      position: absolute;
+      left: 54px;
+    }
+  }
+}
